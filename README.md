@@ -1,6 +1,6 @@
 ## GTM Error Highlighter Chrome Extension
 
-This Chrome extension highlights Google Tag Manager (GTM) tags with error messages on the Google Tag Assistant website. It provides a visual indication for tags that encountered exceptions, failed, or are still running.
+This Chrome extension highlights Google Tag Manager (GTM) tags with error messages on the Google Tag Assistant. It provides a visual indication for tags that encountered exceptions, failed, or are still running.
 
 ### Installation
 
