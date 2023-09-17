@@ -6,6 +6,7 @@ This Chrome extension highlights Google Tag Manager (GTM) tags with error messag
 
 ### Installation
 
+This extension is still in beta and has NOT been submitted to Google Chrome Store yet. If you want to try it, you can instll it from your computer. 
 To install the extension in developer mode in Chrome, follow these steps:
 
 1. Clone or download this repository to your local machine.
