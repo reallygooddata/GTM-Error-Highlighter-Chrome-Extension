@@ -20,6 +20,18 @@ Once the extension is installed and enabled, visit the Google Tag Assistant webs
 
 Please note that this extension is specifically designed for the Google Tag Assistant website and will not function on other websites.
 
+Certainly! Here's an additional section on how to block network requests in Chrome:
+
+### Test by Blocking Network Requests in Chrome
+
+To test the extension and force a tag to error, you can utilize the built-in network request blocking feature available in the Chrome DevTools. Follow these steps:
+
+1. Start the Tag Assistant using the preview function in GTM.
+2. Go to the tab that was opened with your website, right-click anywhere on the page and select "Inspect" to open the Chrome DevTools.
+3. In the DevTools panel, click the kebab menu >  More Tools > Network request blocking
+4. Configure the blocking rules by adding URL patterns for the requests you want to block. For example, you can enter "*google.com" to block all requests to the Google domain.
+5. Reload the page to apply the blocking rules, then check tag assistant. You should see any tags that have filed highlighted in red.
+
 ### License
 
 This project is licensed under the [MIT License](LICENSE).
