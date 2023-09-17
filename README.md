@@ -2,6 +2,8 @@
 
 This Chrome extension highlights Google Tag Manager (GTM) tags with error messages on the Google Tag Assistant. It provides a visual indication for tags that encountered exceptions, failed, or are still running.
 
+![Tag Example](tag-example.png) 
+
 ### Installation
 
 To install the extension in developer mode in Chrome, follow these steps:
@@ -12,7 +14,7 @@ To install the extension in developer mode in Chrome, follow these steps:
 4. Click on "Load unpacked" and select the directory where you cloned or downloaded this repository.
 
  ![Tag Example](ext-load.png)
- 
+
 5. The extension will be loaded and ready to use in developer mode.
 
 ### Usage
