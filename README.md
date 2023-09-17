@@ -16,6 +16,8 @@ To install the extension in developer mode in Chrome, follow these steps:
 
 Once the extension is installed and enabled, visit the Google Tag Assistant website (https://tagassistant.google.com/). The extension will automatically highlight GTM tags with error messages. Tags with "Exception thrown," "Failed," or "Still running" will have their text color changed to red, and the parent GTM card title will have a red background color.
 
+![Tag Example](tag-example.png)
+
 Please note that this extension is specifically designed for the Google Tag Assistant website and will not function on other websites.
 
 ### License
