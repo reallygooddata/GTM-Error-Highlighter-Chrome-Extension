@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome Extension Popup</title>
+    <style>
+      body {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+
+      }
+      .container {
+        width: 350px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+      }
+      img {
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+      }
+
+      h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        background-color: #fcd7bf;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+
+      .form-switch {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .form-check-label {
+      font-size: 16px;
+      padding: 15px;
+
+    }
+      form-check-
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GTM Tag Assistant - Error Highlighter</h1>
+      <p>Never miss tag errors again.  <br><br>Tags with errors are highlighted to easily identify issues. </p>
+      <img src="tag-example.png">
+      <div class="form-switch">
+        <input class="form-check-input" type="checkbox" id="toggleCheckbox" />
+        <label class="form-check-label" for="toggleCheckbox">Activate</label>
+      </div>
+    </div>
+  </body>
+</html>
