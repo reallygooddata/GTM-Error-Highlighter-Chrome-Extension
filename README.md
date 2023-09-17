@@ -1,0 +1,1 @@
+# gtm-tag-assistant-error-highlighter
