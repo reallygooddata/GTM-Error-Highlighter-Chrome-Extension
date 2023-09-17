@@ -34,7 +34,7 @@ To test the extension and force a tag to error, you can utilize the built-in net
 2. Go to the tab that was opened with your website, right-click anywhere on the page and select "Inspect" to open the Chrome DevTools.
 3. In the DevTools panel, click the kebab menu >  More Tools > Network request blocking
 ![Tag Example](network-blocking.png)
-4. Configure the blocking rules by adding URL patterns for the requests you want to block. For example, you can enter "*google.com" to block all requests to the Google domain.
+4. Configure the blocking rules by adding URL patterns for the requests you want to block. For example, you can enter "*google.com" and "*analytics" to block all requests to the Google domain.
 ![Tag Example](google-blocked.png)
 5. Reload the page to apply the blocking rules, then check tag assistant. You should see any tags that have failed highlighted in red.
 ![Tag Example](tag-error-examples-large.png)
