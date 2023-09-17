@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GTM Tag Assistant - Error Highlighter",
+  "description": "This Chrome extension highlights Google Tag Manager (GTM) tags with error messages on the Google Tag Assistant. It provides a visual indication for tags that encountered exceptions, failed, or are still running.",
   "version": "1.0",
   "permissions": [
     "tabs",
