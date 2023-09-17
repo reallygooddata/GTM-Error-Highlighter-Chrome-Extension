@@ -10,7 +10,9 @@ To install the extension in developer mode in Chrome, follow these steps:
 2. Open Google Chrome and go to the extensions management page by entering `chrome://extensions` in the address bar.
 3. Enable Developer mode by toggling the switch in the top-right corner of the page.
 4. Click on "Load unpacked" and select the directory where you cloned or downloaded this repository.
+
  ![Tag Example](ext-load.png)
+ 
 5. The extension will be loaded and ready to use in developer mode.
 
 ### Usage
