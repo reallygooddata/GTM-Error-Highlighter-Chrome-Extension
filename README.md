@@ -6,10 +6,12 @@ This Chrome extension highlights Google Tag Manager (GTM) tags with error messag
 
 ### Installation
 
-This extension is still in beta and has NOT been submitted to Google Chrome Store yet. If you want to try it, you can instll it from your computer. 
-To install the extension in developer mode in Chrome, follow these steps:
+Youn can find the extension in the Chrome Store here: 
+https://chrome.google.com/webstore/detail/gtm-tag-assistant-error-h/henoooadlnkicamlpjbkenolnhgnochc
 
-1. Clone or download this repository to your local machine.
+Or to install the extension in developer mode in Chrome, follow these steps:
+
+1. Clone or download this repository to your local machine (download the zip file under Code > Zip file).
 2. Open Google Chrome and go to the extensions management page by entering `chrome://extensions` in the address bar.
 3. Enable Developer mode by toggling the switch in the top-right corner of the page.
 4. Click on "Load unpacked" and select the directory where you cloned or downloaded this repository.

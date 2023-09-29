@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GTM Tag Assistant - Error Highlighter",
   "description": "An easy way to see tags that error on Google Tag Assistant in Google Tag Manager.",
-  "version": "1.0",
+  "version": "0.0.0.1",
   "permissions": [
     "tabs",
     "scripting",
