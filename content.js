@@ -2,17 +2,33 @@ function applyColorToElements() {
   // Find all elements with the specified classes
   var elements = document.querySelectorAll('.gtm-debug-card__subtitle.wd-nominated-tag-type, .tag-details__property-value');
 
+  const ERROR = {
+    FAIL: "#ffcccc",
+    RUNNING: "#ddddff",
+    EXCEPTION: "#ffddff",
+    NONE: "#ffffff"
+  }
+
   // Loop through each element
   for (var i = 0; i < elements.length; i++) {
     var element = elements[i];
+    var errorType = ERROR.NONE;
 
     // Check if the element contains an error
-    if (element.innerHTML.includes("Exception thrown") || element.innerHTML.includes("Failed") || element.innerHTML.includes("Still running")) {
+    if (element.innerHTML.includes("Failed")) {
       element.style.color = "red";
-      var parent = element.closest('.gtm-debug-card'); // Find the ancestor element with class gtm-debug-card
-      if (parent) {
-        parent.querySelector('.gtm-debug-card__title').style.backgroundColor = "#fecdcd";
-      }
+      errorType = ERROR.FAIL;
+    } else if (element.innerHTML.includes("Exception thrown")) {
+      element.style.color = "magenta";
+      errorType = ERROR.EXCEPTION;
+    } else if (element.innerHTML.includes("Still running")) {
+      element.style.color = "blue";
+      errorType = ERROR.RUNNING;
+    }
+
+    var parent = element.closest('.gtm-debug-card'); // Find the ancestor element with class gtm-debug-card
+    if (parent && errorType != ERROR.NONE) {
+      parent.querySelector('.gtm-debug-card__title').style.backgroundColor = errorType;
     }
   }
 }
